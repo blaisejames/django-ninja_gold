@@ -1,0 +1,14 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset="utf-8">
+    <title>Ninja Gold: Django Style</title>
+    <link href="{% static 'css/main.css' %}" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="wrapper">
+        {% block content %}{% endblock content %}
+    </div>
+</body>
+</html>
